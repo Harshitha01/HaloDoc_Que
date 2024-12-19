@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="rest_API_Project.POST_RequestTest"/>
+      <class name="automationTests.Get_Specific_Booking_Id"/>
+      <class name="rest_API_Project.GET_RequestTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
